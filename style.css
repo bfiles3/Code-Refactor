@@ -4,36 +4,41 @@
     margin: 0;
 }
 
-.header h1 {
+body {
+    background-color: #d9dcd6;
+}
+
+#header {
+    background-color: #2a607c;
+}
+
+#header h1 {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
     color: #ffffff;
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+#header h1 .seo {
     color: #d9dcd6;
 }
 
-.header nav {
+#header nav {
     padding-top: 36px;
     padding-bottom: 37px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2a607c !important;
     font-size: 20px;
     list-style-type: none;
     
 }
 
-.header nav ul li{
+#header nav ul li{
     display: inline-block;
     margin-left: 25px;
     text-decoration: none;
-    background-color: #2a607c;
 }
 a {
     color: #fff;
