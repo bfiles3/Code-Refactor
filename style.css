@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Everything below this point is formatting for the Header/Navigation bar */
 #header {
     background-color: #2a607c;
     color: #ffffff;
@@ -43,6 +44,7 @@ body {
 a {
     color: #fff;
     text-decoration: none;
+/* This is the end of the formatting for the Navigation Bar */
 }
 p {
     font-size: 16px;
@@ -56,7 +58,7 @@ figure {
     background-size: cover;
     background-position: center;
 }
-
+/* The floats below are relative to the images to the left or right of the text */
 #float-left {
     float: left;
     margin-right: 25px;
@@ -73,6 +75,7 @@ figure {
     margin-left: 20px;
 }
 
+/* Everything classed as benefits refers to the bottom sections of the page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -100,6 +103,7 @@ figure {
     max-width: 150px;
 }
 
+/* Everything below this point is referring to the side bar */
 #services {
     margin-bottom: 20px;
     padding: 50px;
@@ -117,7 +121,7 @@ h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Sidebar formatting ends here, the remaining code is for the text at the bottom of the page */
 footer {
     padding: 30px;
     clear: both;
